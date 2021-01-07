@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+}
+
+.container h1 {
+  padding: 60px 0;
+  color: navy;
+  font-size: 44px;
+  text-align: center;
+}
+
+#playButtons,
+#nextButtons {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#myVideo {
+  width: 100%;
+}
+
+#vidNum {
+  float: right;
+}
+
+button {
+  widows: 100%;
+}

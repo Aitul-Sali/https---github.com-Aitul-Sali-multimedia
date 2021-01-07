@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Media Player</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Video Playlist</h1>
+            <video id= "myVideo" controls preload="metadata">           
+<source src="videos/video1.mp4"/>
+<track label ="English" kind="subtitles" srclang="en" src="subtitrare2.json">
+            </video>
+<output id="timeOut"> Time:0</output>
+<output id="vidNum">Video: 1/5</output>
+<div id="playButtons">
+    <button id="btnPlay">Play</button></br>
+    <button id="btnPause">Pause</button></br>
+    <button id="btnStop">Stop</button>
+</div>
+<div id="nextButtons">
+<button id="btnNext">Next Video</button>
+</div>
+</div>
+         
+     </div>
+        <script src="player.js"></script>
+    </body>
+</html>
